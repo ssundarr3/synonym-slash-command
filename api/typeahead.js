@@ -1,10 +1,6 @@
 const key = require('../utils/key');
 const request = require('request');
 
-// TODO:
-// resolver handle fast type
-// move to new folder and remove extra files  (api file etc)
-
 // The Type Ahead API.
 module.exports = function(req, res) {
   let term = req.query.text.trim();  
